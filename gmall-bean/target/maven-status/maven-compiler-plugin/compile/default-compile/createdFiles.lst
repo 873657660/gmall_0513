@@ -1,1 +1,4 @@
 com\atguigu\gmall\bean\UserInfo.class
+com\atguigu\gmall\bean\SpuImage.class
+com\atguigu\gmall\bean\SpuSaleAttrValue.class
+com\atguigu\gmall\bean\SpuSaleAttr.class

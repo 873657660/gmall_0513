@@ -23,4 +23,10 @@ public class OrderController {
 
         return userInfoService.getUserAddressByUserId(userId);
     }
+
+    @RequestMapping("trade1")
+    public List<UserAddress> trade(UserAddress address) {
+
+        return userInfoService.getUserAddressByUserId(address);
+    }
 }

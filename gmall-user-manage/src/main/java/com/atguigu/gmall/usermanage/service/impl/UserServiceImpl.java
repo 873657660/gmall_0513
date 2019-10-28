@@ -65,4 +65,9 @@ public class UserServiceImpl implements UserInfoService {
         return userAddressMapper.selectByExample(example);
     }
 
+    @Override
+    public List<UserAddress> getUserAddressByUserId(UserAddress address) {
+        return userAddressMapper.select(address);
+    }
+
 }

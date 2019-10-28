@@ -39,4 +39,6 @@ public interface UserInfoService {
      */
     List<UserAddress> getUserAddressByUserId(String userId);
 
+    List<UserAddress> getUserAddressByUserId(UserAddress address);
+
 }
