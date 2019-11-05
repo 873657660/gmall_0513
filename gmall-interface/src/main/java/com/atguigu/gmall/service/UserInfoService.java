@@ -41,4 +41,17 @@ public interface UserInfoService {
 
     List<UserAddress> getUserAddressByUserId(UserAddress address);
 
+    /**
+     * 校验登录
+     * @param userInfo
+     * @return
+     */
+    UserInfo login(UserInfo userInfo);
+
+    /**
+     * 根据userId从redis中查询数据
+     * @param userId
+     * @return
+     */
+    UserInfo verify(String userId);
 }
